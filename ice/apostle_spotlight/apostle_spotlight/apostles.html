@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin:0;
+            padding:0;
+        }
+        body{
+            background-color: #e8eced;
+            color: white;   
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #apostle_box{
+            background-image: url("images/christus.webp");
+            background-repeat: no-repeat;
+            background-position: 60% center;
+            background-size: cover;
+            width: 900px;
+            justify-self: center;
+            border-radius: 8%;
+            border: 8px solid black;
+        }
+        .first{
+            max-width: 700px;
+            text-align: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            justify-self: center;
+            align-items: flex-end;
+        }
+        .first img{
+
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: 50% 10%;
+            margin: 15px;
+            border: 8px solid white;
+        }
+        .medium_image{
+            width: 135px;
+            height: 135px;
+        }
+        .large_image{
+            width: 150px;
+            height: 150px;
+        }
+        .first h1{
+            flex: 1 1 100%;
+            font-size: 3em;
+            font-weight: 300;
+            padding:.2em
+        }
+        .apostles{
+            max-width: 700px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            margin: 0 auto;
+            justify-items: center;
+            row-gap: 1em;
+            padding: 0 0 2em 0;
+        }
+        .quorum h2{
+            text-align: center;
+            padding:.2em;
+            font-weight: 200;
+            font-size: 1.8em;
+        }
+        .apostles img{
+            border-radius: 50%;
+            width: 115px;
+            height: 115px;
+            object-fit: cover;
+            object-position: 50% 10%;
+            border: 8px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div id="apostle_box">
+        <div class="first">
+            <h1>First Presidency</h1>
+            <img class ="medium_image" src="images/eyring.webp" alt="">
+            <img class = "large_image" src="images/oaks.webp" alt="President oaks">
+            <img class ="medium_image" src="images/christofferson.webp" alt="">
+        </div>
+        <div class="quorum">
+            <h2>Quorum of the Twelve Apostles</h2>
+            <section class="apostles">
+                <img src="images/holland.webp" alt="">
+                <img src="images/uchtdorf.webp" alt="">
+                <img src="images/bednar.webp" alt="">
+                <img src="images/cook.webp" alt="">
+                <img src="https://placehold.co/320x384" alt="">
+                <img src="images/anderson.webp" alt="">
+                <img src="images/rasband.webp" alt="">
+                <img src="images/stevenson.webp" alt="">
+                <img src="images/renlund.webp" alt="">
+                <img src="images/gong.webp" alt="">
+                <img src="images/soares.webp" alt="">
+                <img src="images/kearon.webp" alt="">
+            </section>
+        </div>
+    </div>
+    <!-- Insert HTML elements here -->
+</body>
+</html>

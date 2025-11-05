@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+nav{
+    background-color: orangered;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    background-color: orangered;
+    list-style: none;
+    padding: 1em;
+    margin: 0 auto;
+}
+body{
+    background-color: black;
+}
+li{
+    background: linear-gradient(135deg, white, purple);
+    padding: 0 1em;
+    margin: 0 1em;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+h1{
+    justify-self: center;
+    font-size: 4em;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    border: 2px solid, white;
+    box-shadow: 5px 5px 10px rgba(255, 252, 252, 0.5);
+}
+section{
+    display: flex;
+    max-width: 75%;
+    justify-self: center;
+    margin: 20px auto;
+    justify-content: center;
+    border: 4px solid, white;
+    background-color: purple;
+    border-radius: 10px;
+}
+section h2{
+    padding: 0 2em;
+}
+
+section p{
+    width: 50%;
+}
+footer{
+    padding: 2em;
+    background-color: orangered;
+}

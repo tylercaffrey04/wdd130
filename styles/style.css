@@ -45,6 +45,20 @@ h1{
 a, p, table, li{
     font-family: "Playwrite DE Grund", cursive;
 }
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.grid_box{
+    display:grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+#c1, #c3, #c5, #c7{
+    grid-column: 2/3;
+}
+#c2, #c4, #c6, #c8{
+    grid-column: 3/4;
+}
 div.scroll_bar{
         display: flex;
         flex-wrap: nowrap;
